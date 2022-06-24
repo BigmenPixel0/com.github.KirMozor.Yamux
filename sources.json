@@ -1,0 +1,121 @@
+[
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/atksharp/3.24.24.38/atksharp.3.24.24.38.nupkg",
+        "sha512": "46efbcd406d58a958b81e30b1ac466f08023e72eb36305cdcb17ed3e5a5e1844d44be8852add83ecff887e70dd7fc84f2e47f3aa6996728c40144788a7203adf",
+        "dest": "nuget-sources",
+        "dest-filename": "atksharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/cairosharp/3.24.24.38/cairosharp.3.24.24.38.nupkg",
+        "sha512": "30294df0e349b0ba0b0191494e6f6de9bcda0471c95ea82b031a5cc0f966678c99527b16a5daf3da085aa2fa12f86ccb7633b8abb4b77dab62611c22a2e966f8",
+        "dest": "nuget-sources",
+        "dest-filename": "cairosharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/gdksharp/3.24.24.38/gdksharp.3.24.24.38.nupkg",
+        "sha512": "f8acc3ae6a3212a9ddc60d17cbc6bee9220624b3a25848acbaf716a3fe72390c15a0af09ca34040beabad361fcdd84901919b5ba2fbc8da8c00488fd616530bb",
+        "dest": "nuget-sources",
+        "dest-filename": "gdksharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/giosharp/3.24.24.38/giosharp.3.24.24.38.nupkg",
+        "sha512": "3a71150688e94393adc40b48975a17f3ac737a0984773aad218b940a8f934e7006996ecf813ffec82cc66705e753dd88cb905f587ab3fc7dc06ab03a76fd25f6",
+        "dest": "nuget-sources",
+        "dest-filename": "giosharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/glibsharp/3.24.24.38/glibsharp.3.24.24.38.nupkg",
+        "sha512": "b7eb31edae955673892e12408420a62641d95f65b8b8efb9e04b9aa9c0ed36d07453ed9491abfbf90e10f6a8718e2e1e4e8f358f1fe2a4dfd162010aabb7a496",
+        "dest": "nuget-sources",
+        "dest-filename": "glibsharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/gtksharp/3.24.24.38/gtksharp.3.24.24.38.nupkg",
+        "sha512": "51915872aaa11c200aebb62e0969471b5a8a9c5a57f449b9b7ead0dc0c4291caf271570ab5262c78da416304f5ba75cab48823ab1ee8a3752233edb843c1bac0",
+        "dest": "nuget-sources",
+        "dest-filename": "gtksharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/managedbass/3.1.1/managedbass.3.1.1.nupkg",
+        "sha512": "7da22b6e1d7fbcf61726a4896ca9ef90480dc114d6768030afa76eb2d633f83af1a4f59319123ff503f6cca7121bfa30d90eca2d7ab5127189823ccc489714bc",
+        "dest": "nuget-sources",
+        "dest-filename": "managedbass.3.1.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg",
+        "sha512": "83731b662eaf05379a23f8446ef47bbc111349dd4358b7bd8b51383fe9cf637e2fe62f78cea52a0d7bdd582dc6fbbb5837d4a7b1d53dcf37a0ae7473e21ee7b1",
+        "dest": "nuget-sources",
+        "dest-filename": "newtonsoft.json.13.0.1.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/pangosharp/3.24.24.38/pangosharp.3.24.24.38.nupkg",
+        "sha512": "5edc84db5b815d3fe8162b39f6c6f1f44107e216dfaf63e2c5677ca4f7d2a552558a51e6dba9910820358bbc70fe6aef58321e691271095cac2c98dad29a7f3a",
+        "dest": "nuget-sources",
+        "dest-filename": "pangosharp.3.24.24.38.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/tomlyn/0.14.3/tomlyn.0.14.3.nupkg",
+        "sha512": "7015d2cf842d99d9b6e2aab52c20ca43490f2503fc4e77454e9da46c1c81e18a2400246049fc96e3f25406e1e55f33ff60c7a5e2d6c9ceddaf28675c9061c8b2",
+        "dest": "nuget-sources",
+        "dest-filename": "tomlyn.0.14.3.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/yandexmusicapi/1.0.6/yandexmusicapi.1.0.6.nupkg",
+        "sha512": "76095dd1b9ca84fd2d354bff8a2e5fe091e0627d9d43e0585c2bc7320208e46028b13f391e53c2b76bed27431199e8849965094d168b96f6d76c999477dfc4e3",
+        "dest": "nuget-sources",
+        "dest-filename": "yandexmusicapi.1.0.6.nupkg"
+    },
+    {
+    	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.5/microsoft.netcore.app.ref.6.0.5.nupkg",
+	"sha512": "aae8ff8322e864bca924eecfc2c67c89be994a016fd42f6ce52260c3397f833b729d327fde83bfb2d03680d31fd02df7bd327427749217f9113d0fe27d8e7166",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.netcore.app.ref.6.0.5.nupkg"
+    },
+    {
+    	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.5/microsoft.aspnetcore.app.ref.6.0.5.nupkg",
+	"sha512": "45e1bdd0f3f3aa1565b9168f95b70ed0d7d6c47ba6f73b1449edc6ca24fa4fff0241c3716475356411208cc1b4a69d657fdd0297449caa6fa2218ad9aa709e60",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.aspnetcore.app.ref.6.0.5.nupkg"
+    },
+    {
+	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.host.linux-x64/6.0.5/microsoft.netcore.app.host.linux-x64.6.0.5.nupkg",
+	"sha512": "e3ab6876e2cd7dcd7465956f2a343268d35d208fc7d83a56de93f6e3e57680ddc43185859a718cb9223025aed83cd511e751cc014f8852f2a5b90c8cad3962c9",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.netcore.app.host.linux-x64.6.0.5.nupkg"
+    },
+    {
+	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/6.0.5/microsoft.netcore.app.runtime.linux-x64.6.0.5.nupkg",
+	"sha512": "4fb1315fa62282e4c2e20f4773ed579a92aef1256f6ea267115719633c98ee28d724eac4e159dff0fd8f3a17b5e9df16a55e7a2821da151d7f1fbaceebca6451",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.netcore.app.runtime.linux-x64.6.0.5.nupkg"
+    },
+    {
+	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/6.0.5/microsoft.aspnetcore.app.runtime.linux-x64.6.0.5.nupkg",
+	"sha512": "31eb6d8d3d03a18ded69af0c5bab549f628303cd57bacb3f5f21e81c82f1fe8a31a228dabc1febdaf85e62f0c4941cb8147bfa5bf7ecb1c37f4f757a6212dd41",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.6.0.5.nupkg"
+    },
+    {
+	"type": "file",
+	"url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.crossgen2.linux-x64/6.0.5/microsoft.netcore.app.crossgen2.linux-x64.6.0.5.nupkg",
+	"sha512": "15209e7464384cef370e2142dc5e2f50b7eaff5f2a23214abf26a8c0ea2f563f5fa44eccca81a777da53b4bdca2e95c4abd8cd6bc264a546707a57c9676b4ec3",
+	"dest": "nuget-sources",
+	"dest-filename": "microsoft.netcore.app.crossgen2.linux-x64.6.0.5.nupkg"
+    }
+]

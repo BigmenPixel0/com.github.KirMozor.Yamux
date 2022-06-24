@@ -1,0 +1,51 @@
+app-id: com.github.KirMozor.Yamux
+runtime: org.freedesktop.Platform
+runtime-version: '21.08'
+sdk: org.freedesktop.Sdk
+finish-args:
+  - --share=network
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --own-name=org.KirMozor.Yamux
+
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.dotnet6
+
+command: Yamux
+modules:
+  - name: dotnet-runtime
+    buildsystem: simple
+    build-options:
+      no-debuginfo: true
+      strip: true
+    build-commands:
+      - /usr/lib/sdk/dotnet6/bin/install-sdk.sh
+
+  - name: libbass
+    buildsystem: simple
+    build-commands:
+      - install -Dpm644 x64/libbass.so $FLATPAK_DEST/lib/libbass.so
+    sources:
+      - type: archive
+        strip-components: 0
+        url: http://www.un4seen.com/files/bass24-linux.zip
+        sha256: 77f387762a9ee4b72da3c6581c22e50456ab7aeb7c9a7154564530a9468db655
+
+  - name: Yamux
+    buildsystem: simple
+    build-options:
+      append-path: /usr/lib/sdk/dotnet6/bin
+      append-ld-library-path: /usr/lib/sdk/dotnet6/lib
+      env:
+        PKG_CONFIG_PATH: /app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet6/lib/pkgconfig
+    build-commands:
+      - dotnet build --source nuget-sources --configuration Release
+      - cp -r Svg $FLATPAK_DEST/bin/
+      - cp -r bin/Release/net6.0/linux-x64/* $FLATPAK_DEST/bin/
+      - install -Dm755 bin/Release/net6.0/linux-x64/Yamux $FLATPAK_DEST/bin/Yamux
+    sources:
+      - sources.json
+      - type: git
+        url: https://github.com/KirMozor/Yamux.git
+        commit: fff537b64f55a005dc756e40bac58970ff6fb356
