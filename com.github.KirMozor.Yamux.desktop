@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Yamux
+Exec=Yamux
+Icon=com.github.KirMozor.Yamux
+Categories=Music
+Terminal=false
