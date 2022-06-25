@@ -46,6 +46,7 @@ modules:
       - install -Dm755 bin/Release/net6.0/linux-x64/Yamux $FLATPAK_DEST/bin/Yamux
       - install -Dpm644 $FLATPAK_ID.desktop $FLATPAK_DEST/share/applications/$FLATPAK_ID.desktop
       - install -Dpm644 Svg/icon.svg $FLATPAK_DEST/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg
+      - install -Dpm644 $FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - sources.json
       - type: git
@@ -53,4 +54,5 @@ modules:
         commit: fff537b64f55a005dc756e40bac58970ff6fb356
       - type: file
         path: com.github.KirMozor.Yamux.desktop
-
+      - type: file
+        path: com.github.KirMozor.Yamux.metainfo.xml

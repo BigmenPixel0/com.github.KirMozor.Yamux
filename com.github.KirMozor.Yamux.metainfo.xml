@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.github.KirMozor.Yamux</id>
+  
+  <name>Yamux</name>
+  <summary>Yamux - Yandex music client in Unix-Like</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <developer_name>KirMozor</developer_name>
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  
+  <description>
+    <p>
+      ## _This is the Yandex music client on the Unix-Like system._
+    </p>
+    <p>
+      This client allows you to listen to your favorite music service. At the moment it is still under development, so there may be bugs. Visit my [GitHub!](https://github.com/KirMozor/Yamux)
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">com.github.KirMozor.Yamux.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/KirMozor/Yamux/main/Demonstration/MainWindow.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/KirMozor/Yamux/main/Demonstration/LoginWindow.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/KirMozor/Yamux/main/Demonstration/ImagineDragons.png</image>
+    </screenshot>
+  </screenshots>
+</component>
