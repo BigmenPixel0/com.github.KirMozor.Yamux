@@ -5,7 +5,7 @@ sdk: org.freedesktop.Sdk
 finish-args:
   - --share=network
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   - --own-name=org.KirMozor.Yamux
 
